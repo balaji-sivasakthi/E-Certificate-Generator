@@ -35,14 +35,14 @@ document.addEventListener('DOMContentLoaded', function () {
     
   }, false);
 
-  function printDiv(divName) {
-    console.log("i'm Working FIne....");
-    var printContents = document.getElementById(divName);
-    var originalContents = document.body.innerHTML;
+//   function printDiv(divName) {
+//     console.log("i'm Working FIne....");
+//     var printContents = document.getElementById(divName);
+//     var originalContents = document.body.innerHTML;
 
-    document.body.innerHTML = printContents;
+//     document.body.innerHTML = printContents;
 
-    window.print();
+//     window.print();
 
-    document.body.innerHTML = originalContents;
-}
+//     document.body.innerHTML = originalContents;
+// }
